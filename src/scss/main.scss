@@ -55,7 +55,6 @@ width:20%;
 
 #submitText{
 }
-
 #images{
 text-align:$alignment;
 display:inline-block;
@@ -63,7 +62,6 @@ display:inline-block;
 margin: 3%;
 
 }
-
 #products_slide{
 
 	@extend .border;
@@ -85,7 +83,6 @@ margin: 3%;
 		@include padding(0%, 0%, 0%, 0%);
 
 	}
-
 	#slider .slide{
 	float:left;
 	list-style-type:none;

@@ -13,5 +13,13 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IndhuVelayutham/CATCH.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IndhuVelayutham/CATCH/issues"
+  },
+  "homepage": "https://github.com/IndhuVelayutham/CATCH#readme"
 }
