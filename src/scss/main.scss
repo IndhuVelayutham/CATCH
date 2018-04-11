@@ -1,0 +1,103 @@
+$bgColor: #8da1c1;
+$border: 0px solid black;
+$alignment: center;
+
+@mixin padding($top, $right, $bottom, $left) {
+  padding-top: $top;
+  padding-right: $right;
+  padding-bottom: $bottom;
+  padding-left: $left;
+}
+
+.border{
+border: $border;
+}
+
+
+body{
+background: $bgColor;
+}
+
+.heading{
+ text-align: $alignment;
+}
+
+#form{
+@extend .border;
+@include padding(2%, 2%, 2%, 2%);
+
+}
+
+#formTitle{
+text-align: $alignment;
+}
+
+.formItem{
+
+
+@include padding(1.5%, 1.5%, 1.5%, 1.5%);
+width: 70%;
+display:block;
+margin: auto;
+}
+
+#button{
+width: 50%;
+margin: 10%;
+}
+
+#border{
+border-top: 3px dotted black;
+margin-top: 1%;
+margin-left: 40%;
+width:20%;
+}
+
+#submitText{
+}
+
+#images{
+text-align:$alignment;
+display:inline-block;
+@include padding(4%, 4%, 4%, 4%);
+margin: 3%;
+
+}
+
+#products_slide{
+
+	@extend .border;
+	margin:1px auto;
+	cursor:pointer;
+}
+
+#slider{
+
+	@extend .border;
+	overflow:hidden;
+	}
+
+	#slider .slides{
+	display:block;
+	width:2000px;
+	height:200px;
+	margin:0;
+		@include padding(0%, 0%, 0%, 0%);
+
+	}
+
+	#slider .slide{
+	float:left;
+	list-style-type:none;
+	}
+
+	.logo{
+	margin: 0.5%;
+	text-align: $alignment;
+	width:5%;
+	height:3%;
+	}
+
+	#footer{
+	text-align: $alignment;
+	}

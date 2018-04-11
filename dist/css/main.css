@@ -1,0 +1,75 @@
+.border, #form, #products_slide, #slider {
+  border: 0px solid black; }
+
+body {
+  background: #8da1c1; }
+
+.heading {
+  text-align: center; }
+
+#form {
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%; }
+
+#formTitle {
+  text-align: center; }
+
+.formItem {
+  padding-top: 1.5%;
+  padding-right: 1.5%;
+  padding-bottom: 1.5%;
+  padding-left: 1.5%;
+  width: 70%;
+  display: block;
+  margin: auto; }
+
+#button {
+  width: 50%;
+  margin: 10%; }
+
+#border {
+  border-top: 3px dotted black;
+  margin-top: 1%;
+  margin-left: 40%;
+  width: 20%; }
+
+#images {
+  text-align: center;
+  display: inline-block;
+  padding-top: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+  padding-left: 4%;
+  margin: 3%; }
+
+#products_slide {
+  margin: 1px auto;
+  cursor: pointer; }
+
+#slider {
+  overflow: hidden; }
+
+#slider .slides {
+  display: block;
+  width: 2000px;
+  height: 200px;
+  margin: 0;
+  padding-top: 0%;
+  padding-right: 0%;
+  padding-bottom: 0%;
+  padding-left: 0%; }
+
+#slider .slide {
+  float: left;
+  list-style-type: none; }
+
+.logo {
+  margin: 0.5%;
+  text-align: center;
+  width: 5%;
+  height: 3%; }
+
+#footer {
+  text-align: center; }

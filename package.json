@@ -1,0 +1,17 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "Creating a static front end application for Catch Online Assessment, Using all the core Front End languages to build this static Web Page.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Indhu Velayutham",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {}
+}

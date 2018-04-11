@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Frontend test 320</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jQuery-1.11.3.js"></script>
+    <script src="jqueryui/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" ></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <h3 class="heading">A Front-end test of sorts</h3>
+        </div>
+    </div>
+
+    <div id="form">
+        <form id="formDetails" method="post" onsubmit="return LoginValidate()">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <h4 id="formTitle">
+                        Please Fill in the Form
+                    </h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" class="formItem" name="fname" placeholder="First Name" required>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <input type="text" class="formItem" name="lname" placeholder="Last Name" required>
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <input type="email" class="formItem" name="email" placeholder="Email@test.com" required>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <select id="select" class="formItem form-control form-control-lg" required>
+                        <option value="heading" selected>Please slecet</option>
+                                <option value="First Choice">First Choice</option>
+                                <option value="Second Choice">Second Choice</option>
+                                <option value="Third Choice">Third Choice</option>
+                                <option value="Fourth Choice">Fourth Choice</option>
+                        <option value="First Choice">First Choice</option>
+                        <option value="Second Choice">Second Choice</option>
+                        <option value="Third Choice">Third Choice</option>
+                        <option value="Fourth Choice">Fourth Choice</option>
+                        <option value="First Choice">First Choice</option>
+                        <option value="Second Choice">Second Choice</option>
+                        <option value="Third Choice">Third Choice</option>
+                        <option value="Fourth Choice">Fourth Choice</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-sm-offset-4 col-md-offset-4">
+                    <button type="submit" id="button" class="btn btn-success"> Submit Now</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+
+    <div id="border">
+        <div class="row">
+            <div class="col-sm-12 col-md-12"></div>
+        </div>
+    </div>
+
+    <div id="images">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                    <img  class="img-responsive img-rounded" id="myImg1" src="https://c.pxhere.com/photos/2d/0e/contre_jour_forest_nature_sunbeams_sunset_trees-919282.jpg!d" width="400" height="400"/><br>
+                <h6>Pink & Purple Sunset</h6>
+                <p>
+                    andscape, tree, nature, forest, grass, light, plant, sun, sunset, mist, field, lawn, meadow, sunlight, morning, leaf, flower, green, autumn, agriculture, season, trees, grassland, plantation, woodland, habitat, sunbeams, ecosystem, rural area, natural environment, atmospheric phenomenon, grass family, woody plant, computer wallpaper
+                </p>
+                <a href="https://c.pxhere.com/photos/2d/0e/contre_jour_forest_nature_sunbeams_sunset_trees-919282.jpg!d">Go to the sunset</a>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <img  class="img-responsive img-rounded" id="myImg1" src="https://buddhisteconomics.net/wp-content/uploads/2017/10/hdwp693968124.jpg" width="400" height="400"/><br>
+                <h6>Create a Meaningful Life</h6>
+                <p>
+                    Buddhist Economics shows us how we can heal ourselves as we care for Mother Earth, and provides a path for transitioning to an economy that supports a meaningful life for all people in a low-carbon world.
+                </p>
+                <a href="https://buddhisteconomics.net/wp-content/uploads/2017/10/hdwp693968124.jpg">View For more Images</a>
+            </div>
+        </div>
+    </div>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <div id="products_slide">
+                    <div id="slider">
+                        <ul class="slides">
+                            <li class="slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqpMuYC_36qkvhvaLRfXSQ9gFye9YtfvBD2id3SZNTRiaQwYiYig" class="img-responsive"/></li>
+                            <li class="slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdyehsTw1ugXJ7Qw950hm_spEn0uu9iJzje4VdsG7jv7SuhR3ZKA" class="img-responsive"/></li>
+                            <li class="slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgM6R3pQqX8-i2M76ynG-zkUKFXwlZe1VmJ7y_jK0HFPKwFjOX" class="img-responsive" /></li>
+                            <li class="slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROWJXQHQyYNCZ7Z0sGvFWNiiARAtY4cB5IFwt_019pTMFaXmmcxA" class="img-responsive"/></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    <hr>
+
+
+    <div id="footer">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <h4>MainOffice, 6235 Thaila Terrace Apt. 695, Frankfrut, Jamaica</h4>
+                <h4>Contact: 123-456-789</h4>
+                <a href="mailto:mathi.17191@gmail.com" title="write a mail"><u>e-mail</u></a>
+
+                <br>
+
+                    <a href="https://www.facebook.com/indhu.mathi.3154284" title="Facebook"><img class="logo" src="https://vignette.wikia.nocookie.net/hellohero/images/6/6d/FB_Logo_300.png/revision/latest?cb=20140112205241"/></a>
+                    <a href="https://www.instagram.com/indhuvelayutham/" title="Instagram"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/100px-Instagram_logo_2016.svg.png"/></a>
+                    <a href="https://www.instagram.com/indhuvelayutham/" title="Instagram"><img class="logo" src="https://png.icons8.com/color/100/youtube-play.png"/></a>
+
+                <br>
+
+                <p>
+                    This is the text in the page footer.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+ </div>
+<script src="jQuery-1.11.3.js"></script>
+<script src="jqueryui/jquery-ui.js"></script>
+<script>
+function LoginValidate(){
+alert('Thank you for Logging In');
+}
+            var width=350;
+	        var animationSpeed=1000;
+	        var pause = 2000;
+	        var currentSlide =1;
+		    var $slider = $('#slider');
+            var $slideContainer = $slider.find('.slides');
+            var $slides = $slideContainer.find('.slide');
+            var interval;
+
+		    function startSlider(){
+	           interval = setInterval(function(){
+		       $slideContainer.animate({'margin-left': '-=' + width},animationSpeed, function()
+			   {currentSlide++;
+		       if(currentSlide === $slides.length){
+		       currentSlide = 1;
+		       $slideContainer.css('margin-left', 0);
+		            }
+		       });
+		       },pause);
+		       }
+
+		    function pauseSlider(){
+		    clearInterval(interval);
+		         }
+
+		    $slider.on('mouseenter', pauseSlider).on('mouseleave', startSlider);
+		    startSlider();
+</script>
+</body>
+</html>
